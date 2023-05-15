@@ -1,0 +1,35 @@
+@font: "Poppins";
+@min-height: 100svh;
+@span-font-size: 1.5rem;
+
+#colors() {
+  primary: blue;
+  secondary: green;
+}
+
+.error {
+    color: red;
+    font-weight: bolder;
+}
+
+* {
+    font-family: @font;
+}
+
+body {
+    min-height: @min-height;
+}
+
+* {
+    .error {
+        .error();
+    }
+    span {
+        font-size: @span-font-size;
+        width: 100% / 2;
+        color: #colors[secondary];
+        background-color: #colors[primary];
+    }
+}
+
+// comments

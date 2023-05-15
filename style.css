@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.landing {
+  background-image: url("landingImg.jpg");
+  font-family: "Poppins";
+  min-height: 100svh;
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav span {
+  font-size: 1.5rem;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
